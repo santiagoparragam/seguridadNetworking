@@ -6,7 +6,7 @@ metadata:
 spec:
   podSelector:
     matchLabels:
-      app: mi-app  # Aplica esta política a los pods etiquetados como micro-b
+      app: microservicio-1  # Aplica esta política a los pods etiquetados como micro-b
   policyTypes:
     - Ingress
   ingress:
