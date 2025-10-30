@@ -16,4 +16,4 @@ spec:
               app: microservicio-1  # Permite solo el tráfico proveniente de micro-a
       ports:
         - protocol: TCP
-          port: 8080  # Puerto de destino en micro-b (ajústalo según tu app)
+          port: 3000  # Puerto de destino en micro-b (ajústalo según tu app)
