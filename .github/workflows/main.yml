@@ -27,4 +27,4 @@ jobs:
       - name: Deploy files
         run: |
           oc project santiago-parraga-dev
-          oc apply -f ./
+          oc apply -f private.yaml -f public.yaml
